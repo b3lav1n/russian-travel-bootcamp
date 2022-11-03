@@ -17,14 +17,14 @@
       
  .cover__background:before {
     position: absolute;
+    background: #2A2C2F;
+    opacity: 0.3;
+    transition: opacity 0.3s ease-in;
+    content: ' ';
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: #2A2C2F;
-    opacity: 0.3;
-    transition: opacity 0.3s ease;
-    content: ' ';
 }
       
 .cover__background:hover::before {
@@ -38,9 +38,9 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
     .cover__background {
-        max-width: 320px;
-        min-height: 200px;
+        width: 100%;
+        min-height: 200px;  
     }
 }
