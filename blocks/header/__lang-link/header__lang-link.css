@@ -4,13 +4,13 @@
     line-height: 28px;
     color: #FFFFFF;
     text-decoration: none;
-    opacity: 1;
-    transition: opacity 1s linear;
     margin: 0;
     padding: 0;
+    opacity: 1;
+    transition: opacity 1s ease;
 }
 
-.heading__lang-link:hover {
+.header__lang-link:hover {
     opacity: 0.5;
 }
 
@@ -20,3 +20,4 @@
         line-height: 20px;
     }
 }
+
