@@ -2,7 +2,7 @@
   display: grid;
   width: 100%;
   grid-template-columns: 460px 1fr;
-  gap: 40px 48px;
+  gap: 48px 40px;
   margin-bottom: 80px;
 }
 
@@ -28,7 +28,8 @@
 @media screen and (max-width: 607px) {
     .place {
       grid-template-columns: 1fr;
-      grid-gap: 16px 32px;
+      grid-gap: 32px 16px;
+      margin-bottom: 50px;
     }
 } 
 

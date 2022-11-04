@@ -5,6 +5,6 @@
   line-height: 12px;
   font-weight: 400;
   text-transform: uppercase;
-  font-family: 'Inter', 'Arial' sans-serif;
-  margin-bottom: 12px;
+  font-family: 'Inter', 'Arial', sans-serif;
+  letter-spacing: 2px;
 }

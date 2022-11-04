@@ -8,8 +8,7 @@
 
   @media screen and (max-width: 480px) {
     .footer__link-list {
-      margin: 0;
-      margin-bottom: 32px;
+      margin: 0 0 32px;
       
     }
 
