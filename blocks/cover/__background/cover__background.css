@@ -33,14 +33,8 @@
 
 @media screen and (max-width: 768px) {
     .cover__background {
-        max-width: 768px;
-        min-height: 480px;
+       min-height: 480px;
     }
 }
 
-@media screen and (max-width: 480px) {
-    .cover__background {
-        width: 100%;
-        min-height: 200px;  
-    }
-}
+
